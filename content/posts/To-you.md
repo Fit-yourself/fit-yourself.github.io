@@ -1,14 +1,10 @@
-﻿title: 祝你们新年快乐【同学私包】
-date:  2019-2-2
-tags: Relation
-mp3: https://music.163.com/song/media/outer/url?id=29747526.mp3
-cover: /img/女孩.jpg
++++
+title = "祝你们新年快乐·同学"
+date = "2019-02-03T08:55:14+08:00"
+tags = ["Relation"]
++++
 
-
-
----
-[Who says](https://music.163.com/song/media/outer/url?id=29747526.mp3)
-*右上角播放有歌听*
+2019-02-02日创建
 
 ----------
 
@@ -26,10 +22,12 @@ cover: /img/女孩.jpg
 ---
 
 >沧浪之水清兮，
+>
 >> *可以濯吾缨。*
 
 > 沧浪之水浊兮，
->> *可以濯吾足。*
+>
+> > *可以濯吾足。*
 
 ---
 马上就要高考了，**I do hope you will deserve it.**
@@ -63,9 +61,10 @@ cond(no)->op
 | 流下眼泪 | 我爱你 |要死喽|一生一世|努力吧|
 
 
-### 李欢     ![a1](/img/lihua.jpg)
+### 李欢     ![a1](/images/lihua.jpg)
 |
-### 李舒畅   ![a2](/img/mg.jpg)    
+
+### 李舒畅   ![a2](/images/mg.jpg)    
 
 
 

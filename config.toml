@@ -1,8 +1,8 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://example.com/"
-title = "zone" 
+baseURL = "https://shotohs.top/"
+title = "shotOneGoal" 
 languageCode = "zh-CN" 
 hasCJKLanguage = true 
 # 版权信息（支持 Markdown)
@@ -12,7 +12,7 @@ copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0
 theme = "meme"
 
 # `hugo new` 新建文章自动打开的文本编辑器
-newContentEditor = ""
+newContentEditor = "vim"
 
 # i18n
 defaultContentLanguage = "zh"
@@ -96,11 +96,11 @@ uglyURLs = false
     # 邮箱
     email = "vseelove@foxmail.com"
     # 座右铭或简介
-    motto = "Better than that"
+    motto = "Doing the right thing at the right time in the right place."
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = "https://fit-yourself.github.com/"
+    website = "https://shotohs.top/"
     # 推特
     twitter = "YZP" 
 
@@ -512,7 +512,7 @@ uglyURLs = false
 
     jsonLD = true
     openGraph = true
-    twitterCards = true
+    twitterCards = false
     # 注意：如果你设置 twitterCards 为 `true`，
     #      请务必开启 openGraph。否则，网页的
     #      Twitter Cards 信息将会不完整。
@@ -1018,7 +1018,7 @@ uglyURLs = false
     #      的优先级高于此处
 
     # 仓库地址
-    repoURL = ""
+    repoURL = "https://github.com/fit-yourself/fit-yourself.github.io"
     # 编辑地址
     repoEditURL = ""
 

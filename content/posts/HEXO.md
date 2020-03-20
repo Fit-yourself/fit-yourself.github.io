@@ -1,13 +1,9 @@
-﻿# WIn下属于自己的简约博客
++++
+title = "HEXO+GitPage搭建博客"
+date = "2018-12-31"
+tags = ["Tech","Learn"]
++++
 
-title: 基于Github结合Hexo搭建个人博客
-date: 2018-12-31 
-tags: 
-- 技术
-    mp3: /music/We Are The World.mp3
-    cover: /img/firework.jpg
-
----
 首先向大家展示我的博客：
 www.vseelove.top *挺简约的吧？*
 工具： ** Git hexo Nodejs **
@@ -119,5 +115,5 @@ hexo d
 > [Github Hexo搭建博客](https://weilu2.github.io/2018/09/29/%E5%9F%BA%E4%BA%8EGithub%E7%BB%93%E5%90%88Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)
 
 
-[1]: /img/join.jpg
-[2]: /img/2.jpg
+[1]: /images/join.jpg
+[2]: /images/2.jpg

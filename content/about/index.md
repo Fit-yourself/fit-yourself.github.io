@@ -1,11 +1,9 @@
-﻿title : About_me
-date : 2018-12-30
++++
 
------
+title = "About_me"
+date = "2018-12-30"
 
-### About'me
-
------
++++
 
 **To_do list**
 

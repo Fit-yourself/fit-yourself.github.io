@@ -1,29 +1,30 @@
-﻿# Python 入门第一天
-title: Python 入门第一天
-date: 2019-6-14
-tags: 
-- 学习
-mp3: /music/We Are The World.mp3
-cover: /img/孤独.jpg
++++
+title = "Python 入门第一天" 
+date = "2019-06-14T18:12:29+08:00"
+tags = ["Learn","Play"] 
+dropCap = false
++++
 
-------
+![try](/images/logo.png)
+
 高考结束了,整个人都是晃的.在这期间整个人都是不对;不管它,不管它,每个人给我的激励都是
+
 >只要心态是正念和正能量,今后一切就是光明.而且最重要的是现在,就需要享受当下的光明.
 
 (*￣rǒ￣) 不可否认,我是一个怯弱的人,不敢面对.生命也许就是如此,外界的刺激迫使你对自己进行漏洞修补和系统升级.
 
----
 
- **今天主要是学了python中的print函数的基本表达和三种数据(`str/int/float`)的转换以及进行简单的拼接 `+`**
 
-1.Print 顾名思义就是打印,根据python语言的特点,有别于C等语言,它将我们的指令需要解释后递给"计算机"后显示结果,而不是直接进行显示,因为此为解释性语言.
-*在新的版本(我的是3.7) print被列为函数,在2.7版本之前*"hello world"是这样的,
-`print 'hello world'`
-现在则更统一,为`print ('hello world!')`
-如果要换行的话可以用 `\n` or 
-` print(``` ^ ```) `
+**今天主要是学了python中的print函数的基本表达和三种数据(`str/int/float`)的转换以及进行简单的拼接 `+`**
 
----
+1. Print 顾名思义就是打印,根据python语言的特点,有别于C等语言,它将我们的指令需要解释后递给"计算机"后显示结果,而不是直接进行显示,因为此为解释性语言.
+    *在新的版本(我的是3.7) print被列为函数,在2.7版本之前*"hello world"是这样的,
+    `print 'hello world'`
+    现在则更统一,为`print ('hello world!')`
+    如果要换行的话可以用 `\n` or 
+    ` print(``` ^ ```) `
+
+
 
 2. 数据类型有如下三种:
 
@@ -39,8 +40,6 @@ cover: /img/孤独.jpg
 今天就学到这里吧.
 
 
- 
 
-
-  [1]: /img/py_2.png
-  [2]: /img/py_1.jpg
+[1]: /images/py_2.png
+[2]: /images/py_1.jpg
