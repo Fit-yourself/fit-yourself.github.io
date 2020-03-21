@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>shotOneGoal</title>
+        <link>https://shotohs.top/</link>
+        <description>MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</description>
+        <generator>Hugo 0.67.1 https://gohugo.io/</generator>
+        
+            <language>zh-CN</language>
+        
+        
+            <managingEditor>vseelove@foxmail.com (YZP)</managingEditor>
+        
+        
+            <webMaster>vseelove@foxmail.com (YZP)</webMaster>
+        
+        
+            <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+        
+        <lastBuildDate>Fri, 20 Mar 2020 22:01:57 +0800</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss+xml" href="https://shotohs.top/rss.xml" />
+        
+        
+            <item>
+                <title>积分因子·解微分方程</title>
+                <link>https://shotohs.top/posts/differential/</link>
+                <guid isPermaLink="true">https://shotohs.top/posts/differential/</guid>
+                <pubDate>Thu, 19 Mar 2020 18:03:05 +0800</pubDate>
+                
+                    <author>vseelove@foxmail.com (YZP)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description><![CDATA[<p>学校的视频 是真的看不进，对于👎的我来说，跳跃性太强。</p>
+<p>今天重新复习了下 解微分方程，看到了 <a href="https://zh.wikipedia.org/wiki/%E7%A7%AF%E5%88%86%E5%9B%A0%E5%AD%90">积分因子</a></p>
+<p><em>因为从维基百科中学，所以引入“参数”字母与其保持一致</em></p>
+<p>其中参入了思考过程</p>
+<hr>
+<p>如同中学学的通式一样：
+$$
+ax^2+bx+c=0
+$$
+要记住下面最简单形式的微分方程
+$$
+y'+a(x)=b(x)\tag1
+$$
+其中 $y=y(x)$是x的未知函数，$a(x),b(x)$是给定的已知函数。</p>
+<p>在这里，希望将（1）式左边的 $y'+a(x)$ 化为两个函数的乘积的导数形式。</p>
+<ul>
+<li>
+<p>设 引入函数$M(x)$ 在（1）式同乘以$M(X)$
+$$
+M(x)y'+M(x)a(x)y=M(x)b(x)
+$$</p>
+</li>
+<li>
+<p>左面是两个函数的乘积的导数</p>
+</li>
+<li></li>
+<li>
+<p>左面是两个函数的乘积的导数</p>
+</li>
+<li>
+<p>左面是两个函数的乘积的导数</p>
+</li>
+<li>
+<p>左面是两个函数的乘积的导数</p>
+</li>
+<li>
+<p>左面是两个函数的乘积的导数</p>
+</li>
+<li>
+<p>左面是两个函数的乘积的导数</p>
+</li>
+<li>
+<p>左面是两个函数的乘积的导数</p>
+</li>
+<li>
+<p>左面是两个函数的乘积的导数</p>
+</li>
+<li>
+<p>左面是两个函数的乘积的导数</p>
+</li>
+<li>
+<p>左面是两个函数的乘积的导数</p>
+</li>
+<li>
+<p>左面是两个函数的乘积的导数</p>
+</li>
+<li>
+<p>C 为常数:</p>
+</li>
+</ul>
+<p>$$
+y(x)={\frac  {\int b(x)M(x),dx+C}{M(x)}}.,
+$$</p>
+<ul>
+<li>由</li>
+</ul>
+]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://shotohs.top/tags/learning/">Learning</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://shotohs.top/tags/math/">Math</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>Python 入门第一天</title>
+                <link>https://shotohs.top/posts/pythonzerot/</link>
+                <guid isPermaLink="true">https://shotohs.top/posts/pythonzerot/</guid>
+                <pubDate>Fri, 14 Jun 2019 18:12:29 +0800</pubDate>
+                
+                    <author>vseelove@foxmail.com (YZP)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description><![CDATA[<p><img src="/images/logo.png" alt="try"></p>
+<p>高考结束了,整个人都是晃的.在这期间整个人都是不对;不管它,不管它,每个人给我的激励都是</p>
+<blockquote>
+<p>只要心态是正念和正能量,今后一切就是光明.而且最重要的是现在,就需要享受当下的光明.</p>
+</blockquote>
+<p>(*￣rǒ￣) 不可否认,我是一个怯弱的人,不敢面对.生命也许就是如此,外界的刺激迫使你对自己进行漏洞修补和系统升级.</p>
+<p><strong>今天主要是学了python中的print函数的基本表达和三种数据(<code>str/int/float</code>)的转换以及进行简单的拼接 <code>+</code></strong></p>
+<ol>
+<li>
+<p>Print 顾名思义就是打印,根据python语言的特点,有别于C等语言,它将我们的指令需要解释后递给&quot;计算机&quot;后显示结果,而不是直接进行显示,因为此为解释性语言.
+<em>在新的版本(我的是3.7) print被列为函数,在2.7版本之前</em>&quot;hello world&quot;是这样的,
+<code>print 'hello world'</code>
+现在则更统一,为<code>print ('hello world!')</code>
+如果要换行的话可以用 <code>\n</code> or
+<code>print(``` ^ ```)</code></p>
+</li>
+<li>
+<p>数据类型有如下三种:</p>
+</li>
+</ol>
+<p><img src="/images/py_2.png" alt="1">
+<em>^_^</em>
+<img src="/images/py_1.jpg" alt="2"></p>
+<p>在我学习操作的过程中,认识到如下几点.</p>
+<ul>
+<li>拼接好象只有字符串才可以</li>
+<li>float(浮点数)如果是字符串的浮点数 e.g:<code>&quot;123.4&quot;</code>要使它变成字符串的整数并打印则要<code>print(int(float(123.4)))</code> 结果是 <code>123</code>
+-整数化呢, int(123.4) or int(&quot;12354&quot;)但<del>int(&quot;123.4&quot;)</del></li>
+</ul>
+<p>今天就学到这里吧.</p>
+]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://shotohs.top/tags/learn/">Learn</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://shotohs.top/tags/play/">Play</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>祝你们新年快乐·同学</title>
+                <link>https://shotohs.top/posts/to-you/</link>
+                <guid isPermaLink="true">https://shotohs.top/posts/to-you/</guid>
+                <pubDate>Sun, 03 Feb 2019 08:55:14 +0800</pubDate>
+                
+                    <author>vseelove@foxmail.com (YZP)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description><![CDATA[<p>2019-02-02日创建</p>
+<hr>
+<ul>
+<li><input checked="" disabled="" type="checkbox">编辑发表</li>
+<li><input disabled="" type="checkbox">过年否？</li>
+<li><input disabled="" type="checkbox">微信发表</li>
+</ul>
+<hr>
+<h3 id="to李欢和李舒畅">To:李欢和李舒畅</h3>
+<p><em>其实那天我是特别着急的，没想到说要带你们回家，没想到却让你们等了这么久，浪费了你们这么多的时间，特别是竟然你们给了我60元，OMG，更是让我的面子挂不住了。不过没关系，我会给你们发红包的。</em></p>
+<hr>
+<blockquote>
+<p>沧浪之水清兮，</p>
+<blockquote>
+<p><em>可以濯吾缨。</em></p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>沧浪之水浊兮，</p>
+<blockquote>
+<p><em>可以濯吾足。</em></p>
+</blockquote>
+</blockquote>
+<hr>
+<p>马上就要高考了，<strong>I do hope you will deserve it.</strong>
+谢谢信任。一起加油！！！</p>
+<hr>
+<pre><code class="language-flow" data-lang="flow">st=&gt;start: 行为想法
+op=&gt;operation: 搭建想法
+cond=&gt;condition: 编辑至博客
+e=&gt;end
+
+st-&gt;op-&gt;cond
+cond(yes)-&gt;e
+cond(no)-&gt;op
+</code></pre><hr>
+<ul>
+<li>虽然生活有点想5.55</li>
+<li>虽然我们的距离是5.20</li>
+<li>虽然你不是我的发小1.46</li>
+<li>但感情要13.14</li>
+<li>对于生活的苟延要5.68</li>
+</ul>
+<hr>
+<table>
+<thead>
+<tr>
+<th>555</th>
+<th>520</th>
+<th>146</th>
+<th>1314</th>
+<th>568</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>流下眼泪</td>
+<td>我爱你</td>
+<td>要死喽</td>
+<td>一生一世</td>
+<td>努力吧</td>
+</tr>
+</tbody>
+</table>
+<h3 id="李欢-----a1imageslihuajpg">李欢     <img src="/images/lihua.jpg" alt="a1"></h3>
+<p>|</p>
+<h3 id="李舒畅---a2imagesmgjpg">李舒畅   <img src="/images/mg.jpg" alt="a2"></h3>
+]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://shotohs.top/tags/relation/">Relation</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>HEXO&#43;GitPage搭建博客</title>
+                <link>https://shotohs.top/posts/hexo/</link>
+                <guid isPermaLink="true">https://shotohs.top/posts/hexo/</guid>
+                <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+                
+                    <author>vseelove@foxmail.com (YZP)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description><![CDATA[<p>首先向大家展示我的博客：
+<a href="http://www.vseelove.top">www.vseelove.top</a> <em>挺简约的吧？</em>
+工具： ** Git hexo Nodejs **
+在元旦前告知需要的虫友们。
+以上工具 各位自行受获取【天气冷】
+<a href="https://www.git-scm.com/download/">Git下载界面</a>
+<a href="https://nodejs.org/en/">Nodejs下载界面</a></p>
+<h2 id="1注册github">1.注册Github</h2>
+<p>username.github.io
+** username是你的注册时信息，非我的。 **
+如果已经有Github，可直接创建仓库.注册于创建时，注意<strong>username</strong>，这关系到你的初始域名，发挥你的创造力。
+<img src="/images/join.jpg" alt="join">
+注册过程可能需要验证你的邮箱，其他就不在赘述。</p>
+<ul>
+<li>创建仓库
+创建一个仓库(repository) 来存储我们的网站，点击首页任意位置出现的 New repository按钮创建仓库, Respository name 中的username.github.io 的username 一定与前面的Owner 一致，记住你的username下面会用到。
+<em>还有你注册的邮箱</em>
+这是红的因为我已经注册过一次了，
+<img src="/images/2.jpg" alt="ku">
+create~~~OK~！</li>
+</ul>
+<h2 id="2安装git-hexo">2.安装Git Hexo</h2>
+<ul>
+<li>Git下载后，可直接安装</li>
+<li>安装Nodejs
+【Hexo是一种博客框架基于Nodejs（其它框架与此不讨论）】</li>
+</ul>
+<p>如此，工具准备好。</p>
+<h2 id="3最后一公里">3.最后一公里</h2>
+<p>先用Hexo初始化博客 配置，后发布至个人Github网站【<del>username</del>.github.io】
+<strong>在Git Bash下（其实WIN下的Dos也可以）</strong>
+<strong>配置（安装） Hexo</strong>
+<code>npm install -g hexo-cli</code></p>
+<ul>
+<li>创建本地库
+创建出一个名为 username.github.io 的文件夹。
+<code>hexo init username.github.io</code>
+然后进去
+<code>cd username.github.io </code>
+<em>初始化的过程是从 hexo 仓库下载博客的目录结构和文件，根据网速，需要一定时间。</em></li>
+</ul>
+<p>安装依赖模块：
+<code>npm install</code></p>
+<ul>
+<li>主题安装
+在本地库下
+下进行。【抱歉由于时间的原因，我晚上要考试，明天上学，虫友们可以在下我参考的5分钟里找到相似的。】
+** 调整基础配置 **</li>
+</ul>
+<h2 id="然后你就可以愉快的写文章了后上传">然后你就可以愉快的写文章了,后上传。</h2>
+<p>但你要上传的话，我建议在家的虫友可以** 设置免密提交 **
+<code>cd username.github.io </code></p>
+<ul>
+<li>配置 Git 用户名和邮箱
+<code>git config --global user.name &quot;username&quot;</code>
+<code>git config --global user.email&quot;username@mail.com&quot;</code>
+生成密钥
+<code>ssh-keygen -t rsa -C &quot;username@mail.com&quot;</code>
+使用 ssh-agent 管理私钥
+在Ssh的文件夹下
+<code>eval &quot;$(ssh-agent -s)&quot;</code>
+将生成的密钥添加到 ssh-agent
+<code>ssh-add id_rsa</code>
+将公钥添加到GitHub中
+在网页上登陆Github
+在 GitHub 个人的设置中，添加 SSH-KEY。
+** 验证 **
+<code>ssh -T git@github.com</code>
+出现如下，就是成功了。
+<code>Hi username! You've successfully authenticated, but GitHub does not provide shell access.</code></li>
+</ul>
+<hr>
+<p>是到了发布的前夕了。
+在本地库下
+先生成静态页面
+<code>hexo g</code> （看有无错误。）
+然后本地服务器** 测试 **
+<code>hexo s</code>
+能够正常启动服务器，并在浏览器中访问，说明 Hexo 配置成功，接下来要做的事情就是讲生成的静态页面提交到 Github上即可。</p>
+<h2 id="提交-hexo-到-github">提交 Hexo 到 GitHub</h2>
+<p>修改 _config.yml 文件，在最后增加如下内容：
+<code>deploy: type: git repository: git@github.com:username/username.github.io.git branch: master</code>
+<em>注意</em>“：”后有空格</p>
+<ul>
+<li>安装hexo-deployer-git自动部署发布工具
+<code>npm install hexo-deployer-git --save</code>
+发布
+测试没问题后，我们就生成静态网页文件发布至我们的Github pages 中。
+<code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></li>
+</ul>
+<h1 id="大功告成">大功告成</h1>
+<p><code>Hexo g  hexo s hexo d</code> 一定要知道是干嘛的。</p>
+<p>【手好冷啊！祝大家新年快乐！！！】
+（如有不足，请告知。）</p>
+<hr>
+<p>以下为参考页面：</p>
+<blockquote>
+<p><a href="https://www.jianshu.com/p/4eaddcbe4d12">5分钟 搭建免费个人博客</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://weilu2.github.io/2018/09/29/%E5%9F%BA%E4%BA%8EGithub%E7%BB%93%E5%90%88Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">Github Hexo搭建博客</a></p>
+</blockquote>
+]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://shotohs.top/tags/tech/">Tech</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://shotohs.top/tags/learn/">Learn</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>你的名字的胡思乱想</title>
+                <link>https://shotohs.top/posts/%E4%BD%A0%E7%9A%84%E5%90%8D%E5%AD%97%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/</link>
+                <guid isPermaLink="true">https://shotohs.top/posts/%E4%BD%A0%E7%9A%84%E5%90%8D%E5%AD%97%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/</guid>
+                <pubDate>Sun, 30 Dec 2018 20:36:01 +0800</pubDate>
+                
+                    <author>vseelove@foxmail.com (YZP)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description><![CDATA[<p>十五年前/阴凉的晨/恍恍惚惚/清晰的诀别/ 每夜，梦中的你/梦中是你/与枕俱醒/觉得不是你/另一些人/扮演你入我梦中/哪有你，你这样好/哪有你这样你.             ---木心</p>
+<p>时间的流逝，记忆的洗涤。一边又一边的重组我们。 纵观一切都是虚无，人在这世上流下的痕迹只是被抹去便不复存在的记忆。
+婆婆说“<strong>连接丝线可以叫做产灵， 人与人之间的交流可以叫做产灵，时间的流动也可以叫做产灵。</strong>”
+结绳体现了时间，时间的参与伴随着人类的活动，记忆被时间洗涤，时区的混乱，你我总欠缺一个桥梁，像平行世界般你与我存在，却又不存在。
+<strong>结绳的缠绕是时间的交叉。有时还原 断裂 再次连接。</strong>
+在时间的侵蚀下，唯有留下你最重要的东西，你才能和最真实的你相见。
+你的消逝，你的存在，记忆的改变，记忆的丢弃，让我们不免倾涌出来些许泪水。像诗人世界里垮时区的交流，
+李清照的词，惆怅清丽、苏轼，豪情壮阔 唤醒内心深处的声音。</p>
+<hr>
+<p>彗星的降落，打断了你我之间的连接，我凭借着记忆随着初心去寻找你，但记忆错乱的错觉让我不明白我的初心是否是对的，你是否存在过我的世界，仅存的信息也逝去，初心的根基更是遭到了打击。回头望向自己寻来的路，一切是多么的虚构？这真的只是神经系统错乱带来的错觉吗？可是哪个地方，那个名字是多么的熟悉，当我仔细揣摩你的名字，却又是多么的模糊！
+<img src="/images/jidai.jpg" alt="脐带">
+我坚信，我坚信，你一定存在着，我要寻找你。纵使一切都是虚无，但还有你的结绳，你垮过区域给我的结绳，我们的时间还是交叉的。！
+时间扭曲缠绕，它可以断裂，再连接，我要你存在！
+梦是模糊的，不知道这是虚无的，还是另一半自己的生活。
+但我知道那时你的讯息，时间消灭了关于你的记忆，手掌的名字也少了属于你的笔画，黄昏的结束，遗忘的折磨，挣扎于未知的初心。
+<strong>她是谁，我想要她活着，是谁？我是来见谁的，重要的人，不能忘记的人，决不能忘记的人，是谁？你叫什么?！！！</strong>
+人类永远逃离不出客观的事实，敌不过记忆损伤的影响。不能忘的人，绝不能忘的人，是谁？
+<em>你的笑容，你的扬角，那梦中的景象，已经消失不在</em>
+<img src="/images/Hui.jpg" alt="坠落">
+但我们都争取过，在这片时区，彗星的坠落，时间的涟漪，时间的还原，断裂，连接。你仍存在着。
+当我们擦肩而过，内心小鹿乱撞，产生的那钟纯质的感情，令我们互相回首，即使，我们错过了，即使，我们无法见面。
+但时间的交叉，小千世界，那存在于我身上的结绳，在你身上，这将预示着我们对于彼此命运的交叉。
+你仍存在着，我一直在寻找，这不是一见钟情，是命中注定。</p>
+<blockquote>
+<p>我好象在哪里遇见过你。
+我也是。
+你的名字是：“___”</p>
+</blockquote>
+]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://shotohs.top/tags/%E7%88%B1%E6%83%85/">爱情</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://shotohs.top/tags/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/">胡思乱想</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>那天你生日</title>
+                <link>https://shotohs.top/posts/%E9%82%A3%E5%A4%A9%E4%BD%A0%E7%94%9F%E6%97%A5/</link>
+                <guid isPermaLink="true">https://shotohs.top/posts/%E9%82%A3%E5%A4%A9%E4%BD%A0%E7%94%9F%E6%97%A5/</guid>
+                <pubDate>Sat, 03 Nov 2018 00:00:00 +0000</pubDate>
+                
+                    <author>vseelove@foxmail.com (YZP)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description><![CDATA[<p>那天是你的生日，我曾幻想怎样使你开心，然而他人却告诉我就是昨天。
+我想说的是:
+也许就只有我会这样对你回复每个字，每一行都反反复复的看上几十遍。 每当我高兴的时候，我就没有这种难受受伤的体会，感受着上帝抛弃我，全世界遗弃我的感觉。没有这体会我就无法写下这些文字。
+然而跑操的时候偷瞄看着你的背影，看着活蹦乱跳的你我又不争气的扬起了嘴角。
+我也知道我会和大多数人一样会成为你人生中的过路人。
+心知当我醒来时，你不记得我，我也照依旧的和其他的女孩过着普普通通的生活。</p>
+<blockquote>
+<p>求之不得,窹寐思服。悠哉悠哉,辗转反侧</p>
+</blockquote>
+]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://shotohs.top/tags/%E7%88%B1%E6%83%85/">爱情</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>黑色夕阳</title>
+                <link>https://shotohs.top/posts/down/</link>
+                <guid isPermaLink="true">https://shotohs.top/posts/down/</guid>
+                <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+                
+                    <author>vseelove@foxmail.com (YZP)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description><![CDATA[<p>请允许我就此堕落下去，因为觉得再也没有得到过快乐。
+请允许我就此不在微笑，因为在这一刻我才是没有面具的我。
+请允许我就此不在活跃，因为那热血奔腾的心已经累坏了。
+我曾幻想与你在这夕阳，在这夕阳骑着不算旧的自行车横渡那条路。随着耳旁的风声在飞驰下越来越快，你靠着我，感受着来自于我的厚实安全感。你搂着我，我感受着来自于你的温暖，那柔软小巧的手带来的幸福感。
+请允许我不在幻想，因为我知道就此已经就是幻想了。
+请允许我真的就此不在相信自己，在这黑色的夕阳下，这颗累黑了的心还能撑多久。
+唉_
+<a href="https://zi.com/w/a/6b5ffMq">去罢</a></p>
+<blockquote>
+<p>路漫漫其修远兮 吾将上下而求索</p>
+</blockquote>
+]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://shotohs.top/tags/%E8%B4%9F%E8%83%BD%E9%87%8F/">负能量</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://shotohs.top/tags/%E7%88%B1%E6%83%85/">爱情</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>《马赛克日本》有感</title>
+                <link>https://shotohs.top/posts/porn/</link>
+                <guid isPermaLink="true">https://shotohs.top/posts/porn/</guid>
+                <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+                
+                    <author>vseelove@foxmail.com (YZP)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description><![CDATA[<p>你会非常想去看喜欢的，或者偶像的作品。</p>
+<p>那你知道你到底选择的是什么吗？你认为AV女优的存在是对的吗？不对！但当你看到那些可爱的，漂亮的女优，你却想去观看她有没有复合你口味的“电影”，在一定程度上，你会喜欢她。而这一切都是粉刷后的被控制假象。你成了别人眼中的猎物，虽然在网上，随出可见盗版的影片，但她们又靠此生存，你也因为成本只需要花花一点时间寻找而已，加上激素的影响，你就上瘾了，以至于正常发展的体衡阈值被打破；你和她们都是猎物！</p>
+<p>从《马赛克日本》可以清晰看到，也感谢导演和编剧把其的背后和腐败以及人脑易被巧言蜜语诱导的现象：从 纯真无邪 坚持着底线到肆意妄为，挑起政治，这可谓算是一种社会扭曲。爱情更像是一种附属品，阉割后的男优，在“工作”许久后，已经无法勃起（这不是大部分男优的必然结果？），后又看到老婆在拍AV，从开篇他的那句狂言：”我一个**时代的人，还能和平成的女孩做“ ！但是当他看到自己老婆做的时候，他还不是崩溃了？爱情和伦理在钱的面前的脆弱表现的一览无遗。</p>
+<p>发挥意识的能动性，<strong>势在必为</strong>，不能在因此成为他人的猎物，况且根据自我的探查，至少有以下的后果：</p>
+<ul>
+<li>脾气暴躁！</li>
+<li>沉溺一次，便是黑洞循环</li>
+<li>注意力无法集中，表现在急躁</li>
+<li>思想价值观 容易松动</li>
+<li>牺牲爱好</li>
+<li>自闭，”不敢“接触人（不要跟我说内向，内向也是可以的，取决于如何应对场景！）</li>
+</ul>
+<p>当我会看1.22日的日记时，我发现还有让现在的我后悔的东西：</p>
+<p>其实那些劝人不要看片、不要淫秽是对的，但方式是神经的，为什么要包装粉墨成类似邪教之类的组织？</p>
+<p>AV 都是一群假象，但无知的人多了，便强迫人类认为它是真的，思想便再一次被“洗礼”，更何况这种色情的裸露相背于社会道德的伦理，偷偷摸摸更能够让人受到感染，你无法停止不去想它，只要你破了一次，下一次就不远了。</p>
+]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>手表忘了</title>
+                <link>https://shotohs.top/posts/%E6%89%8B%E8%A1%A8%E5%BF%98%E4%BA%86/</link>
+                <guid isPermaLink="true">https://shotohs.top/posts/%E6%89%8B%E8%A1%A8%E5%BF%98%E4%BA%86/</guid>
+                <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+                
+                    <author>vseelove@foxmail.com (YZP)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description><![CDATA[<p>像往常一样急急忙忙的离开家中去上学，学校里手机不能带，我常戴着手表来增强对时间的把控感。</p>
+<p>这天我急急忙忙冲上校车后，当穿好只穿了一只手的校服，摸了摸手腕，突然脑门震惊了一下&quot;表呢？&quot;我慌里慌张地打开书包，企图手表在包里，书和晚上买的零食全部掏了出来，然而空空如也。</p>
+<p>也只能这样了，我必须“裸”着去上学了，这种没了手表的感觉真的很不舒服， 就好像生命的无序，时间似箭一般的从身边飞去，而我却什么都触碰不到。下车时，每一步都是异常的沉重，无非想象手表已经将我奴役了，没了它，似乎就没办法生活下去，每一分，每一秒都是异常的混沌。</p>
+<p>“叮叮~叮~”上课的铃声响起，习惯性的看向抬起的手，手腕只是残留着刚刚不知从哪里的水。我望向我最喜欢的英语老师，以往我认为是全校最可爱的老师，此刻看起来却是如此的一般，那浪花般的头发少了平时的渲染，平坦而平凡。以往我做题能控制到每一分钟，但今天不知道什么原因，大课间我没有真正的完成一道题，而是害怕时间不够用，遇到困难不是克之，而是换之做其他的题，到头什么都没完成。</p>
+<p>迷迷糊糊地过了一天，以往最舒服的是晚上的两节晚自习，没有老师的教导，没有不喜欢人的声音，有的只是写字“嚓嚓”的声音，和装笔掉下的声音。今晚却是如此的煎熬。没有一丝的准备，没有明确的方向，那被电风扇切开的光线在我的桌上舞动着，那“刷刷”的动笔吊起我的紧张，让我无比感到冷汗，时不时鸡皮疙瘩刷过身上的触摸感更是令我崩溃，我真的想快一步跳出教室，回到家中，紧紧盯着那浮动的数字。那生命的倒计时。</p>
+<p>终于到了放学，我没有快马加鞭的回去，夜晚的星空刺激我思考为什么一件人类自造的工具为什么让我如此难堪？这是好的一面吗？我依靠手表来精准对时间把控，减少对外界的担忧，还是说我进入了一种焦虑的状态？而这一次偶然激发了这一认知？</p>
+<p>把手架在肩膀上，手掌压着耳朵，感受着一步一步带来的震荡感，我想知道什么才是我最需要的，是手表？还是效率？没了手表就没了效率？脚底摩擦带来的一次次颠簸冲击着我的心灵，这无形的时间真的能被控制吗？拥有了手表，就真的掌控了手表？我其实一直活着时间的维度里，让我记起来了一件事“朋友和我是一起改变的。”那时间是可以成为我的朋友的喽？朋友，为什么我要去控制它呢？</p>
+<blockquote>
+<ul>
+<li>谁的人生又容易过?
+<a href="https://www.jianshu.com/p/26299b0ee511"><em>此篇原文</em></a></li>
+</ul>
+</blockquote>
+]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://shotohs.top/tags/%E5%9B%9E%E5%BF%86/">回忆</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://shotohs.top/tags/%E8%99%9A%E6%9E%84/">虚构</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+    </channel>
+</rss>
