@@ -181,18 +181,18 @@ uglyURLs = false
     #     weight = 1
     #     pre = "internal"
     #     post = "home"
-    [[menu.main]]
-        url = "/posts/"
-        name = "文章"
-        weight = 2
-        pre = "internal"
-        post = "archive"
-    [[menu.main]]
-        url = "/categories/"
-        name = "分类"
-        weight = 3
-        pre = "internal"
-        post = "th"
+    #[[menu.main]]
+    #    url = "/posts/"
+    #    name = "文章"
+    #   weight = 2 
+    #    pre = "internal"
+    #    post = "archive"
+    #[[menu.main]]
+    #    url = "/categories/"
+    #    name = "分类"
+    #   weight = 3
+    #    pre = "internal"
+    #    post = "th"
     [[menu.main]]
         url = "/tags/"
         name = "标签"
@@ -212,7 +212,20 @@ uglyURLs = false
         weight = 7
         identifier = "lang-switcher"
 
-
+    [[menu.main]]
+        url = "/poetry/"
+        name = "瞎想"
+        weight = 2
+        pre = "internal"
+        post = "th"
+        identifier = "poetry"
+    [[menu.main]]
+        url = "/tech/"
+        name = "修行"
+        weight = 1
+        pre = "internal"
+        post = "archive"
+        identifier = "tech"
 
 ##########################################
 # 主题配置
@@ -295,11 +308,11 @@ uglyURLs = false
     # 3. posts     文章摘要
     # 4. page      普通页面
 
-    homeLayout = "posts"
+    homeLayout = "poetry"
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = []
+    homePoetry = ["You Can Do Better","Just follow your heart","Stop Doing unneccessary."]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 

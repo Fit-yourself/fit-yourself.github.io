@@ -5,7 +5,7 @@ tags = ["Tech","Learn"]
 +++
 
 首先向大家展示我的博客：
-www.vseelove.top *挺简约的吧？*
+~~www.vseelove.top~~ *挺简约的吧？ *
 工具： ** Git hexo Nodejs **
 在元旦前告知需要的虫友们。
 以上工具 各位自行受获取【天气冷】
