@@ -214,14 +214,14 @@ uglyURLs = false
 
     [[menu.main]]
         url = "/poetry/"
-        name = "瞎想"
+        name = "拾遗"
         weight = 2
         pre = "internal"
         post = "th"
         identifier = "poetry"
     [[menu.main]]
         url = "/tech/"
-        name = "修行"
+        name = "技术"
         weight = 1
         pre = "internal"
         post = "archive"
