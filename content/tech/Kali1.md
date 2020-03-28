@@ -1,7 +1,7 @@
 +++
 date = 2020-03-22T16:19:43
 description="折腾一下Kali 系统"
-tags = [“tech","play"]
+tags = ["tech","play"]
 title = "Kali_?"
 +++
 
