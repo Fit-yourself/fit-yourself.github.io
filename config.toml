@@ -587,12 +587,12 @@ uglyURLs = false
     disqusShortname = ""
 
     ## Valine
-    enableValine = false
+    enableValine = true
     valineAppId = "I40zIk6e7aH46TemguC43C1T-gzGzoHsz"
     valineAppKey = "wc6inaiR8EGEtPors85H6Fp9"
-    valinePlaceholder = "Just go go"
+    valinePlaceholder = "多情应笑我"
     valineNotify = true
-    valineVerify = false
+    valineVerify = true
     valinePath = ""
     valineAvatar = "mm"
     valineMeta = ["nick", "mail", "link"]
@@ -601,8 +601,8 @@ uglyURLs = false
     valineVisitor = false
     valineHighlight = true
     avatarForce = false
-    valineRecordIP = false
-    valineServerURLs = "https://i40zik6e.lc-cn-n1-shared.com"
+    valineRecordIP = true
+    valineServerURLs = ""
     # 说明：https://valine.js.org/
 
     ## Utterances
