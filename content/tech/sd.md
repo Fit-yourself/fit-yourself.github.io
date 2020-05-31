@@ -1,7 +1,8 @@
 +++
 date = 2020-03-23T07:23:52
 description="不想再继续下去"
-tags = ["成长"]
+tags = ["Production"]
+categories = ["Production"]
 title = "摘抄时间管理笔记"
 
 +++

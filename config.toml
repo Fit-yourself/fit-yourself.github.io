@@ -175,24 +175,24 @@ uglyURLs = false
 
 [menu]
     ## 菜单栏
-    # [[menu.main]]
-    #     url = "/"
-    #     name = "首页"
-    #     weight = 1
-    #     pre = "internal"
-    #     post = "home"
-    #[[menu.main]]
-    #    url = "/posts/"
-    #    name = "文章"
-    #   weight = 2 
-    #    pre = "internal"
-    #    post = "archive"
-    #[[menu.main]]
-    #    url = "/categories/"
-    #    name = "分类"
-    #   weight = 3
-    #    pre = "internal"
-    #    post = "th"
+    [[menu.main]]
+        url = "/"
+        name = "首页"
+        weight = 1
+        pre = "internal"
+        post = "home"
+    [[menu.main]]
+       url = "/Story/"
+       name = "酒"
+       weight = 2
+       pre = "internal"
+       post = "archive"
+    [[menu.main]]
+       url = "/categories/"
+       name = "分类"
+      weight = 3
+       pre = "internal"
+       post = "th"
     [[menu.main]]
         url = "/tags/"
         name = "标签"
@@ -212,20 +212,14 @@ uglyURLs = false
         weight = 7
         identifier = "lang-switcher"
 
-    [[menu.main]]
-        url = "/poetry/"
-        name = "拾遗"
-        weight = 2
-        pre = "internal"
-        post = "th"
-        identifier = "poetry"
-    [[menu.main]]
-        url = "/tech/"
-        name = "技术"
-        weight = 1
-        pre = "internal"
-        post = "archive"
-        identifier = "tech"
+
+    # [[menu.main]]
+    #     url = "/tech/"
+    #     name = "tech"
+    #     weight = 1
+    #     pre = "internal"
+    #     post = "archive"
+    #     identifier = "tech"
 
 ##########################################
 # 主题配置
@@ -293,7 +287,7 @@ uglyURLs = false
     # 说明：对弹性布局的顶栏无效
 
     # 是否按文章分区高亮当前菜单项
-    activeInSection = false
+    activeInSection = true
     # 说明：如果开启，那么当某一文章的分区名是某
     #      一菜单项中的 `url` 时，该文章页面中
     #      的该菜单项也会被高亮
@@ -312,7 +306,7 @@ uglyURLs = false
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = ["You Can Do Better","Just follow your heart","Stop Doing unneccessary."]
+    homePoetry = ["You Can Do Better","Just follow your heart","Stop Doing unneccessary.","失去自我吧"]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 
@@ -337,7 +331,7 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。"
+    siteDescription = "折腾一生，却不及一世独处"
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 
@@ -424,7 +418,7 @@ uglyURLs = false
     # 说明：left（左边）或 right（右边）
 
     # 是否按月份分隔列表
-    groupByMonth = true
+    groupByMonth = false
 
     # 是否开启十二生肖
     chineseZodiac = true
@@ -432,7 +426,7 @@ uglyURLs = false
     # 是否翻译年份（仅对年份标题有效）
     i18nYear = true
     # 是否翻译月份（仅对月份标题有效）
-    i18nMonth = true
+    i18nMonth = false
 
 
     ######################################
@@ -573,7 +567,7 @@ uglyURLs = false
     # Mermaid (https://github.com/mermaid-js/mermaid)
 
     # 是否开启（全局设置）
-    enableMermaid = false
+    enableMermaid = true
     # 说明：文章的 Front Matter 中的 `mermaid`
     #      的优先级高于此处
 
@@ -584,7 +578,7 @@ uglyURLs = false
     # 说明：仅在生产环境（production）下渲染
 
     # 是否开启（全局设置）
-    enableComments = false
+    enableComments = true
     # 说明：文章的 Front Matter 中的 `comments`
     #      的优先级高于此处
 
@@ -594,10 +588,10 @@ uglyURLs = false
 
     ## Valine
     enableValine = false
-    valineAppId = ""
-    valineAppKey = ""
+    valineAppId = "I40zIk6e7aH46TemguC43C1T-gzGzoHsz"
+    valineAppKey = "wc6inaiR8EGEtPors85H6Fp9"
     valinePlaceholder = "Just go go"
-    valineNotify = false
+    valineNotify = true
     valineVerify = false
     valinePath = ""
     valineAvatar = "mm"
@@ -608,7 +602,7 @@ uglyURLs = false
     valineHighlight = true
     avatarForce = false
     valineRecordIP = false
-    valineServerURLs = ""
+    valineServerURLs = "https://i40zik6e.lc-cn-n1-shared.com"
     # 说明：https://valine.js.org/
 
     ## Utterances
@@ -626,13 +620,13 @@ uglyURLs = false
 
     # 说明：仅在生产环境（production）下渲染
 
-    enableGoogleAnalytics = false
+    enableGoogleAnalytics = true
 
     # 跟踪代码的类型
     trackingCodeType = "gtag"
     # 说明：gtag 或 analytics
 
-    trackingID = ""
+    trackingID = "UA-168085785-1"
 
 
     ######################################
@@ -819,10 +813,10 @@ uglyURLs = false
     #      (~/blog/static/images/meme.jpg)
 
     # 是否开启
-    enableImageHost = false
+    enableImageHost = true
 
     # 图片外链地址
-    imageHostURL = "https://example.com/"
+    imageHostURL = "https://shotosh.top/"
 
     # 是否将 HTML 的头部元数据中的图片链接也替换为外链
     headAlso = false
@@ -843,7 +837,7 @@ uglyURLs = false
     enableVideoHost = false
 
     # 视频外链地址
-    videoHostURL = "https://example.com/"
+    videoHostURL = "https://shotosh.top/"
 
 
     ######################################
@@ -1073,9 +1067,9 @@ uglyURLs = false
 
     displayShareOnText = false
 
-    shareOnTwitter = true
-    shareOnFacebook = true
-    shareOnLinkedIn = true
+    shareOnTwitter = false
+    shareOnFacebook = false
+    shareOnLinkedIn = false
     shareOnTelegram = true
     shareOnWeibo = true
     shareOnDouban = true
@@ -1107,7 +1101,7 @@ uglyURLs = false
     # 文章的标签
 
     # 是否开启
-    enablePostTags = true
+    enablePostTags = false
 
     # 标签的图标
     postTagsIcon = "tag"
@@ -1134,7 +1128,7 @@ uglyURLs = false
     # 极简页脚
 
     # 是否开启
-    enableMinimalFooter = false
+    enableMinimalFooter = true
     enableVerticalBarStructure = false
     # 说明：如果开启此项，显示在右边的部类或分区
     #      将会包含全部的第一级部类或分区，并且
@@ -1186,10 +1180,10 @@ uglyURLs = false
     displayPoweredBy = true
 
     # 是否显示站点的版权信息
-    displaySiteCopyright = true
+    displaySiteCopyright = false
 
     # 自定义页脚（支持 Markdown）
-    customFooter = ""
+    customFooter = "Hi, Friends 😀"
 
     displayBusuanziSiteUVAndPV = false
     busuanziSiteUVText = "本站访客数"
@@ -1237,7 +1231,7 @@ uglyURLs = false
     # 说明：仅在生产环境（production）下渲染
 
     # 是否开启
-    enableForceHTTPS = false
+    enableForceHTTPS = true
     # 说明：使用 JavaScript 来实现跳转。如果你
     #      的服务器不支持强制 HTTPS 跳转，则可
     #      开启此选项。
@@ -1275,3 +1269,18 @@ uglyURLs = false
     fofVideoWebm = ""
     fofVideoMp4 = ""
     # 说明：视频地址可留空（""）
+
+     ######################################
+    #  Front Matter说明
+    # slug      文章url     String
+    # toc       目录        Boolean
+    # gitinfo   文章Git信息  Boolean
+    # dropCap   首字下沉     Boolean
+    # displayCopyright 版权信息 Boolean
+    # align     位置        'center' ['normal', 'justify', 'center']
+    # comments  评论        Boolean
+    # badge     更新日期     Boolean
+    # meta      文章信息     Boolean
+    # indent    首行缩进     Boolean
+    # share     文章分享     Boolean
+    # tocNum    目录是否显示数字  Boolean   

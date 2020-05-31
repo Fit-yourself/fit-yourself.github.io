@@ -2,6 +2,7 @@
 title = "祝你们新年快乐·同学"
 date = "2019-02-03T08:55:14+08:00"
 tags = ["Relation"]
+comments=true
 +++
 
 2019-02-02日创建
@@ -35,16 +36,18 @@ tags = ["Relation"]
 
 ---
 
-```flow
-st=>start: 行为想法
-op=>operation: 搭建想法
-cond=>condition: 编辑至博客
-e=>end
 
-st->op->cond
-cond(yes)->e
-cond(no)->op
+```mermaid
+stateDiagram
+	[*] --> Idea
+	Idea --> Do
+	Do --> Post
+	Post --> Idea
+	Post --> [*]
+					
 ```
+
+
 
 ---
 
@@ -60,11 +63,7 @@ cond(no)->op
 | --- | --- |---|---|---|
 | 流下眼泪 | 我爱你 |要死喽|一生一世|努力吧|
 
-
-### 李欢     ![a1](/images/lihua.jpg)
-|
-
-### 李舒畅   ![a2](/images/mg.jpg)    
+**李欢** & **李舒畅**  
 
 
 

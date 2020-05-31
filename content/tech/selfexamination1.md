@@ -2,7 +2,8 @@
 date = 2020-03-25T11:47:42
 description="我是谁?"
 tags = ["反省"]
-title="神经反省"
+categories = ["面壁"]
+title="神经反省2"
 
 +++
 

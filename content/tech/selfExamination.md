@@ -1,7 +1,8 @@
 +++
 date = 2020-03-25T11:03:03
 description="学习没有动力"
-tags = ["反省"]
+tags = ["Production"]
+categories = ["面壁"]
 title="神经反省1"
 
 +++

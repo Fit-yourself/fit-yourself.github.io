@@ -1,7 +1,8 @@
 +++
 title = "HEXO+GitPage搭建博客"
 date = "2018-12-31"
-tags = ["Tech","Learn"]
+tags = ["onestep"]
+categories = ["折腾Time"]
 description="早期的博客搭建教程...，域名已经过期，并且已经有 hexo 转为 Hugo 了"
 
 +++

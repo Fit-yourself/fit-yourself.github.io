@@ -1,7 +1,8 @@
 +++
 date = 2020-03-22T07:59:23
 description="疯狂学习单片机的第二天，星期天！"
-tags = ["Learn","tech","单片机"]
+tags = ["C"]
+categories = ["折腾Time"]
 title = "Day02 单片机"
 
 +++

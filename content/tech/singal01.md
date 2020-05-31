@@ -1,8 +1,10 @@
 +++
 date = 2020-03-21T20:17:54
 description = "疯狂学习单片机的第一天"
-tags = ["tech","Learn"]
+tags = ["C"]
+categories = ["折腾Time"]
 title = "day01 51单片机"
+
 +++
 # 定个小目标：
 - 点亮单个灯

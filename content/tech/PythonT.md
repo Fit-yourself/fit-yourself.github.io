@@ -1,8 +1,10 @@
 +++
 title = "Python 入门第一天" 
 date = "2019-06-14T18:12:29+08:00"
-tags = ["Learn","Play"] 
+tags = ["Python"] 
+categories = ["折腾Time"]
 dropCap = false
+
 +++
 
 ![try](/images/logo.png)
